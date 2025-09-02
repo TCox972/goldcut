@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #FBC43A;
+    --color-light : #FDFEFB;
+    --color-dark : #121212;
+    --color-darkest : #262626;
+
+    --shadow-islight : 0 0px 10px rgba(254,254,254,0.6)
+}
+
+.active li {
+    @apply text-primary
+}
